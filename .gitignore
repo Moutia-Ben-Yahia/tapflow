@@ -14,8 +14,6 @@ packages/relay/public/
 .work/
 
 # env
-.env
-.env.local
 .env.*.local
 
 # tapflow runtime config (auto-generated, may contain local paths)
@@ -30,7 +28,6 @@ tapflow.config.json
 !docs/public/*.png
 
 # vscode
-.vscode
 
 # typescript build cache
 *.tsbuildinfo
@@ -62,3 +59,4 @@ docs/.vitepress/dist
 
 # curl test artifacts
 cookies.txt
+config.bat
